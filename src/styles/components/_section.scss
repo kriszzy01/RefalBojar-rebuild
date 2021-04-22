@@ -1,0 +1,92 @@
+.section {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+
+  &_outer,
+  &_inner {
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+  }
+
+  &_background {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+    &_image,
+    &_lines,
+    &_image:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    &_image {
+      background-size: cover;
+      background-position: center;
+      z-index: -2;
+
+      &:before {
+        content: "";
+        background-color: var(--color-overlay);
+      }
+    }
+
+    &_lines {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+
+      > * {
+        display: flex;
+        justify-content: space-around;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+
+        > span {
+          background-color: var(--color-sectionDeco);
+          opacity: 0.1;
+        }
+
+        &:first-child {
+          > span {
+            &:first-child,
+            &:last-child {
+              display: none;
+
+              @media screen and (min-width: 768px) {
+                display: block;
+              }
+            }
+            height: 100%;
+            width: 1px;
+          }
+        }
+
+        &:last-child {
+          flex-direction: column;
+
+          > span {
+            height: 1px;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  &_text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
