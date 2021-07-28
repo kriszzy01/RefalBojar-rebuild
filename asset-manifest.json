@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/refalbojar-rebuild/static/css/main.e0da834a.chunk.css",
-    "main.js": "/refalbojar-rebuild/static/js/main.02cfb4f8.chunk.js",
-    "main.js.map": "/refalbojar-rebuild/static/js/main.02cfb4f8.chunk.js.map",
-    "runtime-main.js": "/refalbojar-rebuild/static/js/runtime-main.ace40d7f.js",
-    "runtime-main.js.map": "/refalbojar-rebuild/static/js/runtime-main.ace40d7f.js.map",
-    "static/js/2.5fc33c9f.chunk.js": "/refalbojar-rebuild/static/js/2.5fc33c9f.chunk.js",
-    "static/js/2.5fc33c9f.chunk.js.map": "/refalbojar-rebuild/static/js/2.5fc33c9f.chunk.js.map",
-    "static/js/3.0a37b27e.chunk.js": "/refalbojar-rebuild/static/js/3.0a37b27e.chunk.js",
-    "static/js/3.0a37b27e.chunk.js.map": "/refalbojar-rebuild/static/js/3.0a37b27e.chunk.js.map",
+    "main.js": "/refalbojar-rebuild/static/js/main.9c7c5834.chunk.js",
+    "main.js.map": "/refalbojar-rebuild/static/js/main.9c7c5834.chunk.js.map",
+    "runtime-main.js": "/refalbojar-rebuild/static/js/runtime-main.6d4c6d47.js",
+    "runtime-main.js.map": "/refalbojar-rebuild/static/js/runtime-main.6d4c6d47.js.map",
+    "static/js/2.8043a8b5.chunk.js": "/refalbojar-rebuild/static/js/2.8043a8b5.chunk.js",
+    "static/js/2.8043a8b5.chunk.js.map": "/refalbojar-rebuild/static/js/2.8043a8b5.chunk.js.map",
+    "static/js/3.b70c2826.chunk.js": "/refalbojar-rebuild/static/js/3.b70c2826.chunk.js",
+    "static/js/3.b70c2826.chunk.js.map": "/refalbojar-rebuild/static/js/3.b70c2826.chunk.js.map",
     "index.html": "/refalbojar-rebuild/index.html",
     "static/css/main.e0da834a.chunk.css.map": "/refalbojar-rebuild/static/css/main.e0da834a.chunk.css.map",
-    "static/js/2.5fc33c9f.chunk.js.LICENSE.txt": "/refalbojar-rebuild/static/js/2.5fc33c9f.chunk.js.LICENSE.txt",
+    "static/js/2.8043a8b5.chunk.js.LICENSE.txt": "/refalbojar-rebuild/static/js/2.8043a8b5.chunk.js.LICENSE.txt",
     "static/media/image1.0d34d67d.jfif": "/refalbojar-rebuild/static/media/image1.0d34d67d.jfif",
     "static/media/image2.d66583a5.jfif": "/refalbojar-rebuild/static/media/image2.d66583a5.jfif",
     "static/media/image3.c0254337.jfif": "/refalbojar-rebuild/static/media/image3.c0254337.jfif",
@@ -19,9 +19,9 @@
     "static/media/image5.1193b8ca.jfif": "/refalbojar-rebuild/static/media/image5.1193b8ca.jfif"
   },
   "entrypoints": [
-    "static/js/runtime-main.ace40d7f.js",
-    "static/js/2.5fc33c9f.chunk.js",
+    "static/js/runtime-main.6d4c6d47.js",
+    "static/js/2.8043a8b5.chunk.js",
     "static/css/main.e0da834a.chunk.css",
-    "static/js/main.02cfb4f8.chunk.js"
+    "static/js/main.9c7c5834.chunk.js"
   ]
 }
